@@ -1,0 +1,31 @@
+.admin{
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 2.5rem 4rem auto;
+    grid-auto-rows: 6rem;
+    grid-row-gap: 1rem;
+}
+
+.adminTab{
+    margin: 0.5rem 2rem ;
+    color: #be3154;
+    display: flex;
+    justify-content: space-between;
+}
+
+.adminTab h2{
+    margin: 0;
+}
+
+.adminTab button{
+    font-size: 1rem;
+    justify-self: center;
+    width: 8rem;
+    height: 2rem;
+    border-width: 0 ;
+    border-radius: 5px;
+    background-color: #e53838;
+    font-family: 'Noto Sans', sans-serif;
+    color: white;
+}

@@ -1,0 +1,65 @@
+.share{
+    top:0;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.overlay{
+    background-color: #000000;
+    opacity: 0.5;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 3;
+}
+
+.model{
+    background-color: #ffffff;
+    position: absolute;
+    width: 20rem;
+    height: 25rem;
+    z-index: 10;
+    display: grid;
+    grid-template-rows: 20% auto 15% ;
+    grid-row-gap: 1rem ;
+    justify-items: center;
+    align-items: center;
+}
+
+.model h2{
+    color: #ee4c74;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.model textarea{
+    height: 90% ;
+    width: 80%;
+    background-color: #efebeb;
+    border: 2px solid #ee4c74;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.model button{
+    font-size: 1rem;
+    width: 5rem;
+    max-height: 2rem;
+    height: 2rem;
+    border-width: 0 ;
+    border-radius: 5px;
+    background-color: #ee4c74;
+    font-family: 'Noto Sans', sans-serif;
+    color: white;
+}
+
+.model button:hover,
+.model button:hover {
+    color: #ee4c74;
+    background-color: white;
+    border: #ee4c74 2px solid;
+}

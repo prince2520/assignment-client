@@ -1,0 +1,12 @@
+.folderContainer{
+    display: grid;
+    grid-row-gap: 0.5rem;
+    grid-auto-rows: 5rem;
+    justify-items: center;
+}
+
+.folderContainer p {
+    color: #ee4c74;
+    font-family: 'Montserrat', sans-serif;
+}
+

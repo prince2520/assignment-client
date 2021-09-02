@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&display=swap');
+
+.authContainer{
+    margin-top: 2rem;
+    width: 15rem;
+}
+
+.authForm{
+    display: grid;
+    grid-template-rows: auto ;
+    justify-items: center;
+    align-content: center;
+    grid-row-gap: 0.5rem;
+}
+
+.authHeading{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 4rem;
+    font-weight: 700;
+    color: #ee4c74;
+}
+
+.authLabel{
+    justify-self: start;
+    font-size: 1.1rem ;
+    color: gray;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 700;
+}
+
+.authForm input{
+    width: 100%;
+    border-width: 0 ;
+    border-bottom-width: 2px;
+    border-bottom-color: #d2345b;
+    outline: none;
+    height: 1.8rem;
+}
+
+.authForm button{
+    font-size: 1rem;
+    width: 40%;
+    height: 2rem;
+    border-width: 0 ;
+    border-radius: 5px;
+    background-color: #ee4c74;
+    font-family: 'Noto Sans', sans-serif;
+    color: white;
+}
+
+.authForm div{
+
+    font-family: 'Montserrat', sans-serif;
+    justify-self: center;
+}
+
+.authForm .authLink{
+    text-align: center;
+}
+
+.authForm button:hover,
+.authForm button:hover {
+    color: #ee4c74;
+    background-color: white;
+    border: #ee4c74 2px solid;
+}
+
+.authFormErrorMsg{
+    font-size: 0.8rem;
+    color: #c40808;
+    font-family: 'Montserrat', sans-serif;
+}

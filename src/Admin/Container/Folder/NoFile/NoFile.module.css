@@ -1,0 +1,17 @@
+.noFileHeading{
+    color: #ee4c74;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.noFileUploadButton{
+    margin-top: 1rem;
+    font-size: 1rem;
+    justify-self: center;
+    width: 10rem;
+    height: 2rem;
+    border-width: 0 ;
+    border-radius: 5px;
+    background-color: #ee4c74;
+    font-family: 'Noto Sans', sans-serif;
+    color: white;
+}
