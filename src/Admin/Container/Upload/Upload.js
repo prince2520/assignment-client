@@ -36,6 +36,7 @@ const Upload = () => {
                         .child(file.name)
                         .getDownloadURL()
                         .then(url => {
+                            setFile(null)
                             console.log(url)
                             throw fetch(`${serverUrl}/admin/upload`, {
                                 method: 'POST',
